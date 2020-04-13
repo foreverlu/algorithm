@@ -3,12 +3,137 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/File Header.txt.ft">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/project/weekly/index.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/binarysearch/BiarySearch7.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/binarysearch/BinarySearch6.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/bubblesort/OptimizedBubbleSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/mergesort/MergeSort10.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/quicksort/QuickSort10.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/quicksort/QuickSort9.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/CyclicBarrier.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/CyclicBarrierDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/FutureTaskDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/NewTaskForDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/SemaphoreDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/SemaphoreSet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/cache/Comparable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/cache/Computable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/cache/ConCurrentMapCache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/cache/ExcuteFuntuion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/CalcellingExcutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/CancelableTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/CancellableTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/CancellingExcutor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/CancleableTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/interrupt/SocketUsingTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/logger/LoggerService.java">
           <value>
             <set />
           </value>

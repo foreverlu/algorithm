@@ -17,11 +17,11 @@ public class QuickSort9 {
         int k = arr[left];
         while (l<r){
             while (l<r && arr[r]>k) r--;
-            if(l<r&&arr[r]<k){
+            if(l<r&&arr[r]<=k){
                 arr[l++] = arr[r];
                 arr[r] = k;
             }
-            while (l<r && arr[l]<k) l++;
+            while (l<r && arr[l]<=k) l++;
             if(l<r&&arr[l]>k){
                 arr[r--] = arr[l];
                 arr[l] = k;
