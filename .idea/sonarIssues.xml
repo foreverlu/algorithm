@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/project/weekly/index.md">
           <value>
             <set />
@@ -33,6 +38,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/bucketsort/BucketSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/insertsort/InsertSort3.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/mergesort/MergeSort10.java">
           <value>
             <set />
@@ -44,6 +59,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/quicksort/QuickSort9.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/radixsort/RadixSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/selectsort/SelectSort.java">
           <value>
             <set />
           </value>
