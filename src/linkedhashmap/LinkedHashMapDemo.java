@@ -1,9 +1,6 @@
 package linkedhashmap;
 
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class LinkedHashMapDemo {
     public static void main(String[] args) {
@@ -30,6 +27,7 @@ public class LinkedHashMapDemo {
 //            System.out.print(e.getValue()+", ");
 //        }
 //        linkedHashMap.get("1");
+
         Map.Entry tail = null;
         Set<Map.Entry<String,String>> entry1 = linkedHashMap.entrySet();
         Iterator<Map.Entry<String,String>> iterator1 = entry1.iterator();

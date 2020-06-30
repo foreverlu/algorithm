@@ -1,5 +1,7 @@
 package dynamicprogramming;
 
+import java.util.LinkedList;
+
 //动态规划解决背包问题
 /*
     有一个背包可以装15kg的物品,
@@ -41,6 +43,8 @@ public class BackageProblem {
 
         System.out.println(maxVal);
 
+        char c = '.';
+        LinkedList q = new LinkedList();
 
     }
 }

@@ -1,9 +1,6 @@
 import sun.security.ssl.HandshakeOutStream;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class Test {
@@ -40,9 +37,12 @@ public class Test {
 
         System.out.println(set);
 
-
-
-
+        Scanner scanner = new Scanner(System.in);
+        scanner.next();
 
     }
+
+
 }
+
+

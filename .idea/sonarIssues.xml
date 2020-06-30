@@ -18,7 +18,17 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/project/jvm-demo/src/gc/GCLogDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/project/weekly/index.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Test.java">
           <value>
             <set />
           </value>
@@ -73,7 +83,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../designPattern/src/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../designPattern/src/strategypattern/commom/QuackBehavior.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/Demo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/io/FileInputReader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/io/FileInputReaderDemo.java">
           <value>
             <set />
           </value>
@@ -159,6 +189,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../javaeedemo/src/main/java/thread/logger/LoggerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javaeedemo/test">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../niodemo/src/nio/demo/MapedByteBufferDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../niodemo/src/nio/demo/MappedByteBufferDemo.java">
           <value>
             <set />
           </value>
