@@ -14,7 +14,7 @@ public class RadixSort {
     private static int n = 11;
 
     public static void main(String[] args) {
-        String[] phones = generatePhoneArray(n, 100000);
+        String[] phones = generatePhoneArray(n, 10);
         System.out.println("origin array: " + Arrays.toString(phones));
 
 //        long t1 = System.currentTimeMillis();
