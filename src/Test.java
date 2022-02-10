@@ -3,42 +3,20 @@ import sun.security.ssl.HandshakeOutStream;
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListSet;
 
+/**
+ * -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=~/data
+ */
 public class Test {
+
+    private static byte[] _M = new byte[1024 * 1024];
     public static void main(String[] args) {
-//        TreeMap<String,Integer> treeMap = new TreeMap();
-//        treeMap.put("alan",2);
-//        treeMap.put("bushu",4);
-//        treeMap.put("dao",1);
-//        treeMap.put("ca",5);
-//        Set<Map.Entry<String,Integer>> entry = treeMap.entrySet();
-//        for(Map.Entry<String,Integer> e : entry){
-//            System.out.print(e.getKey()+": "+e.getValue()+"  ");
-//        }
-//        System.out.println();
-//
-//
-//        HashMap<String,Integer> hashMap = new HashMap<>();
-//        hashMap.put("ased",4);
-//        hashMap.put("vsda",3);
-//        hashMap.put("bfds",4);
-//        hashMap.put("dcds",6);
-//        Set<Map.Entry<String,Integer>> en = hashMap.entrySet();
-//        for(Map.Entry e : en){
-//            System.out.print(e.getKey()+"::"+e.getValue()+"  ");
-//        }
 
-        ConcurrentSkipListSet<Integer> set = new ConcurrentSkipListSet<>();
-        set.add(1);
-        set.add(5);
-        set.add(7);
-        set.add(9);
-        set.add(4);
-        set.add(5);
+        List<byte[]> list = new ArrayList<>();
+        while(true){
+            byte[] _M = new byte[1024 * 1024];
+            list.add(_M);
+        }
 
-        System.out.println(set);
-
-        Scanner scanner = new Scanner(System.in);
-        scanner.next();
 
     }
 

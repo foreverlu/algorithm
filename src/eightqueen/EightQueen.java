@@ -6,14 +6,15 @@ public class EightQueen {
 
     }
 
+    static int n = 4;
     //下标代表
-    private static int[] result = new int[8];
+    private static int[] result = new int[n];
     public static void cal8Queen(int row){
-        if(row==8){
+        if(row==n){
             print8Queen();
             return;
         }
-       for(int column=0;column<8;column++){
+       for(int column=0;column<n;column++){
            if(isOk(row,column)){
                 result[row]=column;
                 cal8Queen(row+1);
@@ -32,7 +33,7 @@ public class EightQueen {
             if(leftUp>=0 && result[i]==leftUp){
                 return false;
             }
-            if(rightUp<8 && result[i]==rightUp){
+            if(rightUp<n && result[i]==rightUp){
                 return false;
             }
             leftUp--;
