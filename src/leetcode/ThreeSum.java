@@ -26,9 +26,50 @@ import java.util.Set;
  */
 public class ThreeSum {
 
+    //[-1,0,1,2,-1,-4]
     public static void main(String[] args) {
-        threeSum(new int[]{0,0,0,0});
+        System.out.println(threeSum1(new int[]{0,0,0,0,0}));
     }
+    public static List<List<Integer>> threeSum1(int[] nums) {
+
+        int n = nums.length;
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(nums);
+//        System.out.println(Arrays.toString(nums));
+        for(int i=0;i<n;i++){
+            if(i>0 && nums[i]==nums[i-1]) continue;
+            for(int j=i+1;j<n;j++){
+                if(j>i+1&& nums[j]==nums[j-1]){
+                    continue;
+                }
+                for(int k=n-1;k>j;k--){
+                    if( k-1>j && nums[k]==nums[k-1]){
+                        continue;
+                    }
+                   int l = nums[k];
+                   int m = nums[i];
+                   int r = nums[j];
+                   if(l+m+r==0){
+                       List<Integer> list = new ArrayList<>();
+                       list.add(l);
+                           list.add(r);
+                           list.add(m);
+                           res.add(list);
+                   }else if(l+m+r<0){
+                        break;
+                   }
+                }
+            }
+        }
+
+        return res;
+    }
+
+
+
+
+
+
     public static List<List<Integer>> threeSum(int[] nums) {
         if(nums==null || nums.length<3){
             return Collections.emptyList();

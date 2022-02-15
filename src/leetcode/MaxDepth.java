@@ -1,6 +1,9 @@
 package leetcode;
 
+import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -14,6 +17,34 @@ import java.util.concurrent.LinkedBlockingQueue;
  * 说明: 叶子节点是指没有子节点的节点。
  */
 public class MaxDepth {
+
+    //层遍历
+    public int maxDepth3(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList<>();
+        int depth = 0;
+        if(null == root){
+            return 0;
+        }
+        queue.offer(root);
+        while(queue.size()>0){
+            depth++;
+            int size = queue.size();
+            for(int i=0;i<size;i++){
+                TreeNode node = queue.poll();
+                if(node.left!=null){
+                    queue.offer(node.left);
+                }
+                if(node.right!=null){
+                    queue.offer(node.right);
+                }
+            }
+
+        }
+
+
+        return depth;
+    }
+
     public int maxDepth(TreeNode root) {
         if(null == root){
             return 0;

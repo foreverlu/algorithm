@@ -13,7 +13,7 @@ package leetcode;
 public class MaxArea {
 
     public static void main(String[] args) {
-        maxArea(new int[]{1, 1});
+        maxArea1(new int[]{1,2,3,4});
     }
 
     public static int maxArea(int[] height) {
@@ -31,5 +31,30 @@ public class MaxArea {
         }
 
         return max;
+    }
+
+
+
+        public static int maxArea1(int[] height) {
+            int n = height.length;
+            int[][] res = new int[n][2];
+
+            res[1][0] = 0;
+            res[1][1] = height[0];
+            for(int i=2;i<n;i++){
+                if(Math.min(height[i],height[i-1])>=Math.min(height[res[i-1][0]],height[i])*(i-res[i-1][0])){
+                    res[i][0] = i-1;
+                    res[i][1] = Math.min(height[i],height[i-1]);
+                }else{
+                    res[i][0] = res[i-1][0];
+                    res[i][1] = Math.min(height[res[i-1][0]],height[i])*(i-res[i-1][0]);
+                }
+            }
+            int max = 0;
+            for(int m = 0;m<n;m++){
+                max = Math.max(max,res[m][1]);
+            }
+            return max;
+
     }
 }
