@@ -10,6 +10,19 @@ package leetcode;
  * 注意：给定 n 是一个正整数。
  */
 public class ClimbStairs {
+
+
+    public int climbStairs1(int n) {
+
+        int[] temp = new int[n+1];
+        temp[1]=1;
+        temp[2]=2;
+        for(int i=3;i<=n;i++){
+            temp[i] = temp[i-1] + temp[i-2];
+        }
+        return temp[n];
+    }
+
     public int climbStairs(int n) {
        int[] arr = new int[n+1];
        arr[1]=1;
