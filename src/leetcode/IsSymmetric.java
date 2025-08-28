@@ -1,9 +1,11 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author caoweiwei
@@ -13,6 +15,52 @@ import java.util.Queue;
  * 按层遍历就可以了
  */
 public class IsSymmetric {
+
+
+    public boolean isSymmetric1(TreeNode node){
+        if(node == null || (node.right==null && node.left==null)){
+            return true;
+        }
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.offer(node);
+
+        while(queue.size()>0){
+            int size = queue.size();
+            if(!check1(queue)){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean check1(Deque<TreeNode> queue) {
+        int size = queue.size();
+        TreeNode[] ts  = new TreeNode[size];
+        int i=0;
+        while(!queue.isEmpty()){
+            ts[i]=queue.poll();
+            queue.offer(ts[i].left);
+            queue.offer(ts[i].right);
+            i++;
+        }
+        int m=0,n=size-1;
+        while(m<n){
+            if(ts[m]==null && ts[n]!=null){
+                return false;
+            }
+            if(ts[m]!=null && ts[n]==null){
+                return false;
+            }
+            if(ts[m]!=null && ts[n]!=null){
+                if (ts[m].val != ts[n].val) {
+                    return false;
+                }
+            }
+            m++;n--;
+        }
+        return true;
+    }
+
 
     public boolean isSymmetric(TreeNode root) {
         if(root==null){

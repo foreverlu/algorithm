@@ -1,12 +1,40 @@
 package leetcode;
 
-import java.util.List;
-
 /**
  * @author caoweiwei
  * @date 2021/10/20  上午10:28 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
  */
 public class RevertList {
+
+    public ListNode reverseList4(ListNode head){
+       ListNode dummy = null;
+       ListNode p = null;
+       while(head!=null){
+           p = head.next;
+           head.next=dummy;
+           dummy = head;
+          head = p;
+       }
+       return dummy;
+    }
+
+    public ListNode reverseList3(ListNode head) {
+        ListNode p = null;
+        ListNode t = null;
+       while(head!=null){
+           t = head.next;
+           head.next = p;
+           p = head;
+           head = t;
+
+       }
+
+       return p;
+    }
+
+
+
+
 
     public ListNode reverseList2(ListNode head) {
         ListNode p = null;
