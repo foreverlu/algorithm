@@ -23,23 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a0be45-a6d8-4857-a621-a785ab5e982f" name="Default Changelist" comment="二叉树层遍历">
-      <change afterPath="$PROJECT_DIR$/src/JudgeSquareSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestWordInDic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReversVowelsOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eightqueen/EightQueen5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mergesort/MergeSort12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quicksort/QuickSort12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntersectionOfTowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RevertListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binarysearch/BinarySearch12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucketsort/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/BuildHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quicksort/QuickSort13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/IsPalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/IsPalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/IsSymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/IsSymmetric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/RevertList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/RevertList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,56 +99,80 @@
       <recent name="mergesort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestWordInDic">
-    <configuration name="JudgeSquareSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JudgeSquareSum" />
+  <component name="RunManager" selected="Application.BinarySearch12">
+    <configuration name="BinarySearch12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.BinarySearch12" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.BuildHeap" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quicksort.QuickSort13" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quicksort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RevertListNode" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestWordInDic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestWordInDic" />
+    <configuration name="TopKFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucketsort.TopKFrequent" />
       <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
-      <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReversVowelsOfAString" />
-      <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidPalindrome" />
-      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucketsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JudgeSquareSum" />
-      <item itemvalue="Application.LongestWordInDic" />
-      <item itemvalue="Application.MergeSortedArray" />
-      <item itemvalue="Application.ReversVowelsOfAString" />
-      <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.BinarySearch12" />
+      <item itemvalue="Application.TopKFrequent" />
+      <item itemvalue="Application.BuildHeap" />
+      <item itemvalue="Application.QuickSort13" />
+      <item itemvalue="Application.RevertListNode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestWordInDic" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ReversVowelsOfAString" />
-        <item itemvalue="Application.JudgeSquareSum" />
+        <item itemvalue="Application.BinarySearch12" />
+        <item itemvalue="Application.TopKFrequent" />
+        <item itemvalue="Application.BuildHeap" />
+        <item itemvalue="Application.QuickSort13" />
+        <item itemvalue="Application.RevertListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +227,12 @@
       <workItem from="1649039267802" duration="1091000" />
       <workItem from="1756257225451" duration="1193000" />
       <workItem from="1756265532050" duration="6629000" />
+      <workItem from="1756429015204" duration="5497000" />
+      <workItem from="1756728380777" duration="19000" />
+      <workItem from="1757465470457" duration="2639000" />
+      <workItem from="1757553951849" duration="1201000" />
+      <workItem from="1757647389685" duration="595000" />
+      <workItem from="1757739303150" duration="2400000" />
     </task>
     <task id="LOCAL-00001" summary="复习二分查找">
       <created>1585992696426</created>
